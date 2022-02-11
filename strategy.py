@@ -43,7 +43,7 @@ if __name__=="__main__":
     m1=Message("Hello, it is a text message","text")
     m2=Message("Hello, it is an email message","email")
     m3=Message("Hello, it is an sms message","sms")
-    m4=Message("Hello, it is an sms message","slack")
+    m4=Message("Hello, it is an slack message","slack")
 
     Sender.send(m1)
     Sender.send(m2)
